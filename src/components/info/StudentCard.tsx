@@ -18,9 +18,9 @@ export default function StudentCard({ info }: { info: StudentInfo }) {
         <p>学号：{info.studentId}</p>
         <p>专业：{info.major}</p>
         <p>班级：{info.className}</p>
-        <p colSpan={2}>辅导员：{info.counselor.name}</p>
-        <p colSpan={2}>辅导员电话：{info.counselor.phone}</p>
-      </div>
+        <p className="col-span-2">辅导员：{info.counselor.name}</p>
+        <p className="col-span-2">辅导员电话：{info.counselor.phone}</p>
+       </div>
     </div>
   );
 }

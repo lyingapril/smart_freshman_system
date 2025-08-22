@@ -1,6 +1,7 @@
 # 依赖项
 /node_modules
 src/node_modules
+src/.next
 /.pnp
 .pnp.js
 
